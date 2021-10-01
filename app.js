@@ -14,9 +14,9 @@ function clickHandler() {
     if(int>0 && qty>0 && curr>0) {
     calculateProfitAndLoss(int, qty, curr);
     } else if(int<0 || qty<0 || curr<0) {
-    showOutput("Values can't be negative")
+    showOutput("Values can't be negative!!")
     } else {
-    showOutput("Please enter all the values")
+    showOutput("Please enter all the values!!")
 }
 }
 

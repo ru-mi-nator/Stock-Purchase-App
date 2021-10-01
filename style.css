@@ -34,7 +34,9 @@ h1 {
 button {
     background-color: var(--primary-color);
     color: white;
-    paddiing: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+
 }
 
 input {
@@ -44,4 +46,14 @@ input {
     padding: 0.5rem;
 }
 
-label
+div {
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bolder;
+    /* border: 2px solid black;
+    width: 35%;
+    border-radius: 2rem;
+    display: block;
+    background-color: var(--primary-color);
+    color: white;
+} */
