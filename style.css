@@ -50,6 +50,7 @@ div {
     padding: 1rem;
     font-size: x-large;
     font-weight: bolder;
+}
     /* border: 2px solid black;
     width: 35%;
     border-radius: 2rem;
@@ -57,3 +58,33 @@ div {
     background-color: var(--primary-color);
     color: white;
 } */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 2rem;
+}
+
+.footer-heading{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer .links{
+    color: white;
+}
+
+.footer .ul{
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
